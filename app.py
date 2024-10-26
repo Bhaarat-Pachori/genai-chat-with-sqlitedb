@@ -45,7 +45,7 @@ st.header("Ask a question")
 
 with st.sidebar:
     image = "ap.png"
-    st.sidebar.image(image, caption='Your Caption Here', use_column_width=True)
+    st.sidebar.image(image, use_column_width=True)
     st.header("Flights Meta-Info")
     with st.sidebar.expander("Carrier"):
         for item in carrier:
